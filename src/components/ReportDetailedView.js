@@ -221,14 +221,18 @@ const ReportDetailedView = () => {
                 </div>
 
                 <div className='flex flex-row gap-2'>
-                    <button class='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
+                    <button className='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
                         Add to Favorites
                     </button>
-                    <button class='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
+                    <button className='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
                         Copy
                     </button>
-                    <button class='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
+                    <button className='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
                         Download
+                    </button>
+                   
+                    <button className='flex justify-center items-center py-2 px-4 text-xs gap-1 bg-blue-600 text-white rounded-lg '>
+                        Add to layout
                     </button>
                    
                 </div>
